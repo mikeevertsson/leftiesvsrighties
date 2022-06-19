@@ -18,7 +18,7 @@ export default function Home() {
       <main className={styles.main}>
     
         <h3 className={styles.title}>
-          Golf Forever League
+          Golf Forever League.
           
         </h3>
        <p> <Image
