@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background-color: black;
 }
 
 .main {
@@ -10,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  
   
 }
 

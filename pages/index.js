@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import golf from '../public/golf.jpg'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import imageLoader from '../components/loader';
 
 
 
@@ -17,20 +17,21 @@ export default function Home() {
       
       <main className={styles.main}>
     
-        <h3 className={styles.title}>
-          Golf Forever League.
+        <h1 className={styles.title}>
+          Golf Forever League
           
-        </h3>
+        </h1>
        <p> <Image
         
-        src={golf}
+        src="/golf.jpg"
         alt="golfing"
         width={300}
         height={300}
+        loader={imageLoader}
         
         
        
-        ></Image></p>
+        /></p>
        
        
           <p><strong>Standings:  </strong> 
@@ -39,20 +40,20 @@ export default function Home() {
           </p>
           <p>
           <strong>Referee:</strong>{' '}
-          <code className={styles.code}>Phil 3 hits to green clubKiller</code>
+          <code className={styles.code}>x0xa 3 hits to green bombdiver</code>
           </p>
 
 
 <section>
         <div className={styles.grid}>
-          <a href="https://youtube.com" className={styles.card}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Match Report &rarr;</h2>
             <p>View latest details of team lefties utterly humiliating team Jaqulines.</p>
           </a>
 
-          <a href="https://youtube.com" className={styles.card}>
-            <h2>Upcomping Stomp &rarr;</h2>
-            <p>Team skins match Wednesday 18:00 Viksberg Righties home shiet turf. </p>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h2>Upcomping stomp &rarr;</h2>
+            <p>Team skins match Wednesday 18:00 Viksberg team Righties home turf </p>
           </a>
 
         </div>
@@ -66,7 +67,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <code className={styles.code}>Hometeam</code>
+          <span className={styles.logo}>
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16}  loader={imageLoader} />
+          </span>
         </a>
       </footer>
     </div>
