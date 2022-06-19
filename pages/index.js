@@ -17,11 +17,12 @@ export default function Home() {
       
       <main className={styles.main}>
     
+    
         <h1 className={styles.title}>
           Golf Forever League
           
         </h1>
-       <p> <Image
+       <Image
         
         src="/golf.jpg"
         alt="golfing"
@@ -31,18 +32,22 @@ export default function Home() {
         
         
        
-        /></p>
-       
-       
+        />
+       <div className={styles.container}>
+         <br></br>
+       </div>
+       <div className={styles.container}>
           <p><strong>Standings:  </strong> 
            {' '} 
           <code className={styles.code}>Lefties vs Righties 5-1</code>
           </p>
+          </div>
+          <div className={styles.container}>
           <p>
           <strong>Referee:</strong>{' '}
-          <code className={styles.code}>x0xa 3 hits to green bombdiver</code>
+          <code className={styles.code}>Phil (3 hits to green) ClubKiller</code>
           </p>
-
+</div>
 
 <section>
         <div className={styles.grid}>
