@@ -33,21 +33,16 @@ export default function Home() {
         
        
         />
-       <div className={styles.container}>
-         <br></br>
-       </div>
-       <div className={styles.container}>
-          <p><strong>Standings:  </strong> 
-           {' '} 
+      
+          <p><strong>Standings:</strong> <br/><br/>
+           
           <code className={styles.code}>Lefties vs Righties 5-1</code>
           </p>
-          </div>
-          <div className={styles.container}>
-          <p>
-          <strong>Referee:</strong>{' '}
-          <code className={styles.code}>Phil (3 hits to green) ClubKiller</code>
+          
+          <p><strong>Referee:  </strong> <br/><br/>
+          <code className={styles.code}>Phil (3 to green) ClubKila</code>
           </p>
-</div>
+
 
 <section>
         <div className={styles.grid}>
@@ -71,10 +66,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16}  loader={imageLoader} />
-          </span>
+          Powered by <strong>&nbsp; TJOG</strong>
+          
         </a>
       </footer>
     </div>

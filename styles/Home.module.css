@@ -27,6 +27,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .footer a {
@@ -69,10 +70,13 @@
 .code {
   background: #fafafa;
   border-radius: 5px;
-  padding: 0.75rem;
+  padding: 1rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+    margin-top: auto;
+    margin-bottom: auto;
+  display: block;
 }
 
 .grid {
@@ -118,6 +122,7 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  color:white;
 }
 
 
